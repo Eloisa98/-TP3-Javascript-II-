@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-const projectFolder = process.argv[2] || path.join(__dirname, '10-ArrowFunctionsComParametrosMultiplos'); 
+const projectFolder = process.argv[2] || path.join(__dirname, '16-GRUPO:marcarTarefascomoConcluidaseFiltrar'); 
 
 if (!projectFolder) {
   console.error('Caminho para a pasta do projeto não especificado.');
